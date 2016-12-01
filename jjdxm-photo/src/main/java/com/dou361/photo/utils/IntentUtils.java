@@ -49,9 +49,10 @@ public class IntentUtils {
         intent.putExtra("outputX", cropWidth);
         intent.putExtra("outputY", cropHeight);
         intent.putExtra("scale", true);
+        intent.putExtra("scaleUpIfNeeded", true);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, outPutUri);
         intent.putExtra("return-data", isReturnData);
-        intent.putExtra("outputFormat", Bitmap.CompressFormat.JPEG.toString());
+        intent.putExtra("outputFormat", Bitmap.CompressFormat.PNG.toString());
         intent.putExtra("noFaceDetection", true); // no face detection
         return intent;
     }

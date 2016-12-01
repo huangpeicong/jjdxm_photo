@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements TakePhoto.TakeRes
 
     @OnClick({R.id.btn_CropFromGallery, R.id.btn_Original, R.id.btn_CropFromTake, R.id.btn_TakeOriginal})
     public void onClick(View view) {
-        File file = new File(Environment.getExternalStorageDirectory(), "/temp/" + System.currentTimeMillis() + ".jpg");
+        File file = new File(Environment.getExternalStorageDirectory(), "/temp/" + System.currentTimeMillis() + ".png");
         if (!file.getParentFile().exists()) file.getParentFile().mkdirs();
         Uri imageUri = Uri.fromFile(file);
         switch (view.getId()) {

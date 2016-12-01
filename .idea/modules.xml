@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jjdxm-photo/jjdxm-photo.iml" filepath="$PROJECT_DIR$/jjdxm-photo/jjdxm-photo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jjdxm-photo/jjdxm-scan.iml" filepath="$PROJECT_DIR$/jjdxm-photo/jjdxm-scan.iml" />
       <module fileurl="file://$PROJECT_DIR$/jjdxm_photo.iml" filepath="$PROJECT_DIR$/jjdxm_photo.iml" />
     </modules>
   </component>

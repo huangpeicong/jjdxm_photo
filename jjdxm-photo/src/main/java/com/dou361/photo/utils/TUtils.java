@@ -64,7 +64,7 @@ public class TUtils {
         if (bitmap == null) return;
         File file = new File(imageUri.getPath());
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bos);
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, bos);
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(file);
