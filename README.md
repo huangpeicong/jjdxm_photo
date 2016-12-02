@@ -21,17 +21,23 @@
 photo or grab via Maven:
 
 	<dependency>
-	  <groupId>photo</groupId>
+	  <groupId>com.dou361.photo</groupId>
 	  <artifactId>jjdxm-photo</artifactId>
 	  <version>x.x.x</version>
 	</dependency>
 
 or Gradle:
 
-	compile 'photo:jjdxm-photo:x.x.x'
+	compile 'com.dou361.photo:jjdxm-photo:x.x.x'
+
+历史版本
+
+	compile 'com.dou361.photo:jjdxm-photo:1.0.2'
+	compile 'com.dou361.photo:jjdxm-photo:1.0.1'
+	compile 'com.dou361.photo:jjdxm-photo:1.0.0'
 
 
-jjdxm-photo requires at minimum Java 15 or Android 4.0.
+jjdxm-photo requires at minimum Java 9 or Android 2.3.
 
 ## Get Started ##
 
@@ -89,6 +95,8 @@ eg:
 ## More Actions ##
 
 ## ChangeLog ##
+
+2016.12.02 1.0.2版本发布，修复部分机型截小图时带黑边和截png图透明内容变黑的问题
 
 ## About Author ##
 

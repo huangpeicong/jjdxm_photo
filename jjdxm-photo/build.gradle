@@ -9,7 +9,7 @@ ext {
     jjdxm_groupId = 'com.dou361.photo'
     jjdxm_artifactId = 'jjdxm-photo'
 
-    jjdxm_libraryVersion = '1.0.1'
+    jjdxm_libraryVersion = '1.0.2'
     jjdxm_libraryName = 'jjdxm-photo'
     jjdxm_libraryDescription = 'this is a photo photo of the application'
 
